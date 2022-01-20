@@ -49,7 +49,7 @@ namespace MySqlTry1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            GMapProviders.GoogleMap.ApiKey = "AIzaSyA7MvMVAxuGAOi8lCtEy68_c5dwT7DW_SQ";
+            GMapProviders.GoogleMap.ApiKey = "APIKEY";
             gMapControl1.MapProvider = GMapProviders.GoogleMap;
             gMapControl1.ShowCenter = false;
         }
